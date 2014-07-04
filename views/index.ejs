@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>TicTacToe</title>
+		<style>
+			table{
+				background-color: white;
+				border-collapse: collapse;
+				margin: 100px auto;
+			}
+
+			td{
+				margin: 0;
+				padding: 0;
+				width: 100px;
+				height: 100px;
+				border: 1px solid #000;
+				font-size: 50px;
+				font-family: sans-serif;
+				text-align: center;
+				line-height: 100px;
+			}
+
+			.large-background {
+    				background: url('../img/handybook.png') no-repeat;
+			}
+		</style>
+
+	</head>
+
+
+	<body>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    		<script src="/socket.io/socket.io.js"></script>
+
+		<script type="text/javascript" src="javascripts/game.js"></script>
+		<script type="text/javascript" >
+
+		$(document).ready(function() {
+    			$('body').addClass('large-background');
+		});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>TicTacToe</title>
+		<style>
+			table{
+			border-collapse: collapse;
+			margin: 100px auto;
+			}
+
+			td{
+			margin: 0;
+			padding: 0;
+			width: 100px;
+			height: 100px;
+			border: 1px solid #000;
+			font-size: 50px;
+			font-family: sans-serif;
+			text-align: center;
+			line-height: 100px;
+			}
+
+			.large-background {
+    				background: url('../img/handybook.png') no-repeat;
+			}
+		</style>
+
+	</head>
+
+	<ol><li>Benjamin Heller</li>
+		<li>Tic Tac Toe</li>
+		<li>AI - MiniMax Algorithm</li>
+	 </ol>
+
+	<body>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://localhost:3000/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" >
+
+		$(document).ready(function() {
+    			$('body').addClass('large-background');
+			console.log('test');
+		});
+		</script>
+	</body>
+</html>
