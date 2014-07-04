@@ -5,12 +5,12 @@ A tic-tac-toe game implemented in JS &amp; node.js (express) with socket.io netw
 
 Screenshot
 ==========
-<a href="https://github.com/bheller84/handybook/Handybook\ Screen\ Shot.png">Here</a>
+<a href="https://github.com/bheller84/handybook/blob/master/Handybook%20Screen%20Shot.png">View Screenshot</a>
 
 Algorithm Overview
 ==================
 
-<a href="http://www.neverstopbuilding.com/minimax">Here</a>
+<a href="http://www.neverstopbuilding.com/minimax">Minimax Tic Tac Toe Overview</a>
 
 
 How to Run:
